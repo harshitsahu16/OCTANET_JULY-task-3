@@ -26,7 +26,7 @@ a {
 }
 
 .category-btn:hover {
-  background-color: #FC1503 !important;
+  background-color: #b103fc84 !important;
   color: white !important;
 }
 
@@ -60,6 +60,26 @@ a {
   margin: 10px 0px;
   border-radius: 20px;
   transition: all 0.3s ease;
+}
+.category-btn2{
+  text-decoration: #b103fc84;
+  font-weight: bold !important;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 7px 15px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  color: white ;
+  font-size: 30px;
+}
+.tube {
+  color:#b103fc84;
+  padding: 3.4px;
 }
 
 @media screen and (max-width: 900px) {
